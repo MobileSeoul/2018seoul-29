@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="0dp"
+    android:paddingBottom="10dp"
+    android:paddingLeft="70dp"
+    android:paddingRight="30dp"
+    android:gravity="center"
+    android:id="@+id/reply_label">
+
+    <ImageView
+        android:layout_marginRight="20dp"
+        android:id="@+id/reply_authorProfileImageUrl"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"/>
+
+    <TextView
+        android:layout_marginRight="20dp"
+        android:id="@+id/reply_authorName"
+        android:maxLength="14"
+        android:fontFamily="@font/seoul_namsan_l"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/reply_authorProfileImageUrl"
+        android:layout_toRightOf="@id/reply_authorProfileImageUrl" />
+
+    <TextView
+        android:id="@+id/reply_publishedAt"
+        android:fontFamily="@font/seoul_namsan_l"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/reply_authorName"
+        android:layout_toRightOf="@id/reply_authorName" />
+
+    <TextView
+        android:id="@+id/reply_content_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/reply_authorName"
+        android:layout_below="@id/reply_authorName" />
+
+</RelativeLayout>

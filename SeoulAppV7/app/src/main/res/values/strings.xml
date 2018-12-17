@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">서울CLIP</string>
+    <string name="app_sub_name">오늘의 클립영상</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="setting_category1">날짜별로찾기</string>
+    <string name="setting_today">오늘의 영상</string>
+    <string name="setting_week">이번주!</string>
+    <string name="setting_month">이번달!</string>
+    <string name="setting_year">올해!</string>
+    <string name="setting_all">전체 기간!</string>
+    <string name="setting_category2">정렬옵션</string>
+    <string name="setting_relevance">관련성</string>
+    <string name="setting_viewCount">조회수</string>
+    <string name="setting_rating">추천수</string>
+
+    <string name="category_name_1">잘생겼다 서울</string>
+    <string name="category_name_2">서울 소식</string>
+    <string name="category_name_3">서울의 축제</string>
+    <string name="category_name_4">맛있는 서울</string>
+    <string name="category_name_5">뉴스</string>
+    <string name="category_name_6">웃긴영상</string>
+    <string name="category_name_7">MUSIC</string>
+    <string name="category_name_8">스포츠</string>
+    <string name="category_name_9">동물</string>
+    <string name="category_name_10">엔터테인먼트</string>
+    <string name="category_name_11">게임</string>
+
+    <string name="error_player">There was an error initializing the YouTubePlayer (%1$s)</string>
+</resources>

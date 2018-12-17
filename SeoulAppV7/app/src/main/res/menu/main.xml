@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/setting_category_date"
+        android:title="@string/setting_category1">
+        <menu>
+            <group
+                android:id="@+id/setting_group_date"
+                android:checkableBehavior="single">
+                <item
+                    android:id="@+id/setting_today"
+                    android:title="@string/setting_today"
+                    android:checked="true"
+                    app:showAsAction="never" />
+                <item
+                    android:id="@+id/setting_week"
+                    android:title="@string/setting_week"
+                    app:showAsAction="never" />
+                <item
+                    android:id="@+id/setting_month"
+                    android:title="@string/setting_month"
+                    app:showAsAction="never" />
+                <item
+                    android:id="@+id/setting_year"
+                    android:title="@string/setting_year"
+                    app:showAsAction="never" />
+                <item
+                    android:id="@+id/setting_all"
+                    android:title="@string/setting_all"
+                    app:showAsAction="never" />
+            </group>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/setting_category_order"
+        android:title="@string/setting_category2">
+        <menu>
+            <group
+                android:id="@+id/setting_group_order"
+                android:checkableBehavior="single">
+                <item
+                    android:id="@+id/setting_relevance"
+                    android:title="@string/setting_relevance"
+                    android:checked="true"
+                    app:showAsAction="never" />
+                <item
+                    android:id="@+id/setting_viewCount"
+                    android:title="@string/setting_viewCount"
+                    app:showAsAction="never" />
+                <item
+                    android:id="@+id/setting_rating"
+                    android:title="@string/setting_rating"
+                    app:showAsAction="never" />
+            </group>
+        </menu>
+    </item>
+</menu>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item android:title="about 서울">
+            <menu>
+                <group android:checkableBehavior="single">
+                    <item
+                        android:id="@+id/nav_hot_clip"
+                        android:icon="@drawable/ic_star"
+                        android:title="@string/category_name_1" />
+                    <item
+                        android:id="@+id/nav_seoul_news"
+                        android:icon="@drawable/ic_megaphone"
+                        android:title="@string/category_name_2" />
+                    <item
+                        android:id="@+id/nav_seoul_festival"
+                        android:icon="@drawable/ic_confetti"
+                        android:title="@string/category_name_3" />
+                    <item
+                        android:id="@+id/nav_seoul_food"
+                        android:icon="@drawable/ic_cooking"
+                        android:title="@string/category_name_4" />
+                </group>
+            </menu>
+        </item>
+        <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/nav_news"
+                android:icon="@drawable/ic_news"
+                android:title="@string/category_name_5" />
+            <item
+                android:id="@+id/nav_humor"
+                android:icon="@drawable/ic_smile"
+                android:title="@string/category_name_6" />
+            <item
+                android:id="@+id/nav_kpop"
+                android:icon="@drawable/ic_quaver_outline"
+                android:title="@string/category_name_7"/>
+            <item
+                android:id="@+id/nav_sports"
+                android:icon="@drawable/ic_running"
+                android:title="@string/category_name_8" />
+            <item
+                android:id="@+id/nav_animal"
+                android:icon="@drawable/ic_dog_cute"
+                android:title="@string/category_name_9" />
+            <item
+                android:id="@+id/nav_entertainment"
+                android:icon="@drawable/ic_television"
+                android:title="@string/category_name_10" />
+            <item
+                android:id="@+id/nav_game"
+                android:icon="@drawable/ic_gamepad"
+                android:title="@string/category_name_11"/>
+        </group>
+    </group>
+</menu>

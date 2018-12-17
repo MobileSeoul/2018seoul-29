@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDark">#BBBBBB</color>
+    <color name="colorPrimaryLight">#3F51B5</color>
+    <color name="colorAccent">#6200EE</color>
+    <color name="colorPrimaryBlue">#1F4E79</color>
+    <color name="colorPrimaryBlue2">#991F4E79</color>
+    <color name="colorAccentSky">#B4C7E7</color>
+    <color name="colorAccentPink">#FF4081</color>
+    
+    
+    
+    
+
+    <color name="colorPrimaryPurple">#6200EE</color>
+    <color name="colorPrimaryPurpleDark">#4B00D1</color>
+
+    <!--<color name="colorOrange">#F4511E</color>-->
+    <color name="colorTealEmerald">#03DAC5</color>
+    <color name="colorLightPurple">#BB86FC</color>
+
+    
+
+
+    <color name="colorPrimaryCranePurple">#5D1049</color>
+    <color name="colorPrimaryCranePurpleDark">#4E0D3A</color>
+    <color name="colorPrimaryCranePurpleLight">#720D5D</color>
+    <color name="colorPrimaryCraneRed">#E30425</color>
+
+
+
+    <color name="colorGray">#344955</color>
+    <color name="colorGrayDark">#232F34</color>
+    <color name="colorGrayLight">#4A6572</color>
+    <!--<color name="colorOrangeLight">#F9AA33</color>-->
+
+
+
+    <color name="colorPrimary2">#3F51B5</color>
+    <color name="colorPrimaryDark2">#303F9F</color>
+
+
+
+
+
+    <color name="colorOrange">#F9A825</color>
+    <color name="colorOrangeDark">#F57F17</color>
+    <color name="colorOrangeLight">#FFFF8D</color>
+    <color name="colorYellow">#FFFF00</color>
+
+
+
+
+    <color name="colorBlue">#283593</color>
+    <color name="colorBlueDark">#1A237E</color>
+    <color name="colorBlueLight">#8C9EFF</color>
+
+
+</resources>

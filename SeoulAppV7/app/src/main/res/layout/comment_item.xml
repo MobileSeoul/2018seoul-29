@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="25dp"
+    android:paddingBottom="10dp"
+    android:paddingHorizontal="30dp"
+    android:gravity="center"
+    android:id="@+id/comment_label">
+
+    <ImageView
+        android:layout_marginRight="20dp"
+        android:id="@+id/comment_authorProfileImageUrl"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" />
+
+    <TextView
+        android:layout_marginRight="20dp"
+        android:id="@+id/comment_authorName"
+        android:maxLength="17"
+        android:fontFamily="@font/seoul_namsan_l"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/comment_authorProfileImageUrl"
+        android:layout_toRightOf="@id/comment_authorProfileImageUrl" />
+
+    <TextView
+        android:id="@+id/comment_publishedAt"
+        android:fontFamily="@font/seoul_namsan_l"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/comment_authorName"
+        android:layout_toRightOf="@id/comment_authorName" />
+
+    <TextView
+        android:id="@+id/comment_content_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/comment_authorName"
+        android:layout_below="@id/comment_authorName" />
+
+    <TextView
+        android:layout_marginTop="12dp"
+        android:id="@+id/comment_reply_count"
+        android:fontFamily="@font/seoul_namsan_l"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/comment_content_text"
+        android:layout_below="@id/comment_content_text"
+        />
+
+</RelativeLayout>
